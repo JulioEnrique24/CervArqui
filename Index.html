@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Sitio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Menú de encabezado -->
+  <header>
+    <a href="#inicio" class="logo">
+      <img src="source/logo2.png" alt="Mi Sitio">
+    </a>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Portada: imagen de fondo + título -->
+    <section class="hero" id="inicio">
+      <h1>Construyendo tus sueños</h1>
+      <p>Portafolio de trabajos</p>
+    </section>
+
+    <!-- Servicios: tres columnas con su imagen -->
+    <section class="destacados" id="servicios">
+      <article>
+        <span>01</span>
+        <h3>Creación de planos</h3>
+        <p>Creamos los planos desde cero</p>
+        <img src="source/plano.png" alt="Plano arquitectónico">
+      </article>
+      <article>
+        <span>02</span>
+        <h3>Renderizado</h3>
+        <p>Creación de renders con recorrido virtual</p>
+        <img src="source/casa.png" alt="Render de una casa">
+      </article>
+      <article>
+        <span>03</span>
+        <h3>Diseño de interiores</h3>
+        <p>Distribuimos y diseñamos los espacios de tu hogar</p>
+        <img src="source/interior natural.png" alt="Diseño de sala interior">
+      </article>
+    </section>
+
+    <!-- Video del recorrido -->
+    <section class="video">
+      <div class="video-contenedor">
+        <span>Recorrido virtual</span>
+        <h2>Vistazo a uno de nuestros recorridos</h2>
+        <video controls>
+          <source src="source/depa 3.0.mp4" type="video/mp4">
+          Tu navegador no soporta video.
+        </video>
+      </div>
+    </section>
+
+    <!-- Nosotros: texto a la izquierda, imágenes a la derecha -->
+    <section class="nosotros" id="nosotros">
+      <div class="nosotros-texto">
+        <span>Nosotros</span>
+        <h2>Me presento</h2>
+        <p class="intro">Mi nombre es Julio Enrique Cervantes Gómez.</p>
+        <p>
+          Soy egresado del Centro Universitario Continental, mejor conocido como <strong>CUC</strong>.
+          Cuento con experiencia en levantamiento topográfico, diseño de planos y recorridos virtuales,
+          experiencia que obtuve en mi servicio en la presidencia municipal de Pachiquilla, así como en trabajos independientes.
+        </p>
+      </div>
+      <div class="nosotros-imagenes">
+        <img src="source/cuc.png" alt="Centro Universitario Continental">
+        <img src="source/foto.jpeg" alt="Centro Universitario Continental">
+      </div>
+    </section>
+
+
+    <section class="contacto" id ="contacto">
+      <div class="contacto-texto">
+        <span>Nosotros</span>
+        <h2>Conactanos por este medio</h2>
+        <ul>
+          <li>
+            <p>Telefono: +52 771 135 8622</p>
+          </li>
+          <li>
+            <p>Correo: julio24.ceg@gmail.com</p>
+          </li>
+        </ul>
+        
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
